@@ -10,6 +10,7 @@ import retrofit2.http.GET;
 public interface Api {
 
     String BASE_URL = "https://simplifiedcoding.net/demos/";
+   // String BASE_URL = "https://raw.githubusercontent.com/anilabha/Fetch-Data-from-API-Using-Retrofit-Android-App-Example/main/marvel.json";
 
     /**
      * The return type is important here
