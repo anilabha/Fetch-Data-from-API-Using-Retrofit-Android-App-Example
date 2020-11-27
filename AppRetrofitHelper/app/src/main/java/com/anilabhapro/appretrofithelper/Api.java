@@ -9,8 +9,8 @@ import retrofit2.http.GET;
 
 public interface Api {
 
-    String BASE_URL = "https://simplifiedcoding.net/demos/";
-   // String BASE_URL = "https://raw.githubusercontent.com/anilabha/Fetch-Data-from-API-Using-Retrofit-Android-App-Example/main/marvel.json";
+   String BASE_URL = "https://raw.githubusercontent.com/anilabha/Fetch-Data-from-API-Using-Retrofit-Android-App-Example/main/";
+
 
     /**
      * The return type is important here
@@ -20,7 +20,7 @@ public interface Api {
      * then no need to worry, but if you have your own API, make sure
      * you change the return type appropriately
      **/
-    @GET("marvel")
+    @GET("marvel.json")
     Call<List<Hero>> getHeroes();
 
 }
